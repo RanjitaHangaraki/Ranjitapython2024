@@ -1,0 +1,4 @@
+def numbers(**numbers):
+  for key, value in numbers.items():
+        print(f"{key}: {value}")
+numbers(name="John", age=25, country="USA")
