@@ -1,0 +1,6 @@
+#remove item
+a.remove(15)
+a
+#pop remove item
+a.pop(1)
+a
