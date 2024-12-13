@@ -1,0 +1,11 @@
+naman={1,2,3,4,5,6}
+naman
+
+#adding
+naman.add(0)
+naman
+
+
+#removing
+naman.remove(5)
+naman
