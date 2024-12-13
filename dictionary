@@ -1,0 +1,23 @@
+dog={
+    "name":"rocky",
+    "age":12,
+    "breed":"pug"
+}
+dog
+
+#accessing
+print(dog["name"])
+
+#modifing
+dog["age"]=10
+dog
+
+
+#iterating
+for key,value in dog.items():
+    print(key,value)
+
+
+#iterating
+for key,value in dog.items():
+    print(key,value)
