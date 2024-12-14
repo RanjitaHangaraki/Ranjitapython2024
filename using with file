@@ -1,0 +1,3 @@
+with open("/content/ranjita.txt","r") as file:
+  data=file.read()
+  print(data)
