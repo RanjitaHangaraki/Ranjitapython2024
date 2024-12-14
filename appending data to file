@@ -1,0 +1,5 @@
+with open("/content/ranjita.txt","a")as file:
+  file.write("python is easy to learn.\n")
+
+with open("/content/ranjita.txt","r")as file:
+  print(file.read())
