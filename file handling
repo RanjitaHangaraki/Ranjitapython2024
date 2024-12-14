@@ -1,0 +1,2 @@
+with open("/content/3a56277579a711ee814c92669a1675b3_upscaled.jpeg","rb")as file:
+  data=file.read()
