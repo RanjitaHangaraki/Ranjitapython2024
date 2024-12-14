@@ -1,0 +1,7 @@
+try:
+  file=open("/content/ranjita.txt","r")
+  print(file.read())
+except FileNotFoundError:
+  print("file not found")
+finally:
+  print("execution complete.")
