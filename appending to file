@@ -1,0 +1,3 @@
+file=open("/content/ranjita.txt","a")
+file.write("hey who are u")
+file.close()
