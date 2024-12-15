@@ -1,0 +1,39 @@
+class car:
+  no_of_wheels=0
+  mileage=0
+  no_of_seats=0
+
+  def moveforward(self):
+    print("the car is moving forward")
+  def movebackward(self):
+    print("the car is moving backward")
+  def turnleft(self):
+    print("the car is turning left")
+  def turnright(self):
+    print("the car is turning right")
+  def stop(self):
+    print("the car is stopped")
+
+car1=car()
+print(car1.no_of_seats)
+print(car1.mileage)
+print(car1.no_of_wheels)
+
+car2=car()
+print(car2.no_of_seats)
+print(car2.mileage)
+print(car2.no_of_wheels)
+
+car3=car()
+car3.mileage=100
+car3.no_of_seats=12
+car3.no_of_wheels=10
+print(car3.no_of_seats)
+print(car3.mileage)
+print(car3.no_of_wheels)
+
+car3.moveforward()
+car3.movebackward()
+car3.turnleft()
+car3.turnright()
+car3.stop()
